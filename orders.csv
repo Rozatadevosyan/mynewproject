@@ -1,0 +1,13 @@
+order_id,customer_id,product,quantity,unit_price,status,order_date
+1001,501,Laptop,1,1200,paid,2026-10-20
+1002,502,Mouse,2,25,paid,2026-10-20
+1003,503,Keyboard,1,75,pending,2026-10-20
+1004,501,Laptop,1,1200,paid,2026-10-20
+1005,504,Monitor,2,300,paid,2026-10-21
+1006,505,Mouse,0,25,paid,2026-10-21
+1007,506,Keyboard,1,-75,paid,2026-10-21
+1008,507,Headphones,2,80,cancelled,2026-10-21
+1009,508,Monitor,1,300,paid,2026-10-22
+1009,508,Monitor,1,300,paid,2026-10-22
+1010,509,Mouse,3,25,paid,2026-10-22
+1011,510,,1,50,paid,2026-10-22

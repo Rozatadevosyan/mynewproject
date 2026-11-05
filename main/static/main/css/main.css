@@ -1,0 +1,83 @@
+.first-div .hopar {
+    height: 40px;
+    padding: 20px;
+}
+.first-div .sranq {
+    display: flex;
+    gap: 25%;
+    cursor: pointer;
+    padding: 20px;
+    /*height: 40px;*/
+}
+
+.first-div {
+    display: flex;
+    height: 80px;
+    gap: 60%;
+    width: 100%;
+}
+
+.wixcl{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.second-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-container {
+    position: relative; /* շատ կարևոր */
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+}
+
+.kentron {
+    position: absolute; /* overlay */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 40px;
+
+}
+.barev{
+    position: absolute; /* overlay */
+    top: 75%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-button {
+    background: unset;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: medium;
+    width:130px;
+    height:45px;
+}
+.third-div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-button:hover {
+    background: black;
+    color:white;
+    transition: 0.5s;
+
+}

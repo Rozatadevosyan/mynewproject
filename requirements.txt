@@ -1,0 +1,5 @@
+djangorestframework
+uvicorn[standard]>=0.30
+requests>=2.32
+pydantic>=2.0,<3.0
+httpx>=0.27
